@@ -1,16 +1,25 @@
-# This is a sample Python script.
+print('hello world')
+print("hello world")
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+name = "selladurai rajan is my name"
+id = 1989
+print(name)
+print(id)
+
+print(name.title())
+print(name.upper())
+print(name.lower())
+print(name.isdigit())
+print(len(name))
+
+name, id, age = "selladurai", 1988, 30
+print(name)
+print(id)
+print(age)
+
+print("result" + str(int("8") + age))
+
+print(input("enter your name"))
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+print("{:.2f}".format(2.29878989795))
